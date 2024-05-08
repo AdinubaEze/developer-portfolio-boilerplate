@@ -1,0 +1,36 @@
+:root{
+  --color-primary:blue;
+  --color-primary-accent:#AD13FB;
+  --color-white:#ffffff; 
+  --color-text:#111111;
+  --color-muted: #7d7d82;
+  --radius-1:4px;
+  --radius-2:0.8rem;
+  --radius-3:1.2rem;
+  --radius-4:2rem;
+  --radius-5:100%;
+  --transition:all 400ms ease;
+  --gray-border:1px solid #7d7d82;
+  --color-background-primary: #FFFFFF;
+  --color-background-secondary: #f1f1f1;
+  --color-background-variant: #e9e6e6;
+  --gradient-1:linear-gradient(to right, var(--color-primary) 0%, var(--color-primary-accent) 100%);
+  --gradient-2:linear-gradient(190deg,var(--color-primary) 0%,rgba(115,67,210,0.3) 100%);
+  --primary-glow: radial-gradient(rgb(0, 0, 255,0.2) 0%, rgba(255, 255, 255, 1));
+  --secondary-glow: linear-gradient(
+     to bottom right,
+     rgba(1, 65, 255, 0),
+     rgba(1, 65, 255, 0),
+     rgb(0, 0, 255,0.2)
+   );
+}
+[data-theme="dark"] {
+    --color-text:#FFFFFF;
+    --gray-border:1px solid rgba(89, 88, 88, 0.633);
+    --color-background-primary: #0A0A0C;
+    --color-background-secondary: #171719;
+    --color-background-variant: #1b1b1e;
+    --primary-glow: radial-gradient(rgb(0, 0, 255,0.2) 0%, rgba(0, 0, 0,0.5));
+} 
+
+
